@@ -2,6 +2,7 @@
 depends/SDKs
 depends/sdk-sources
 depends/sources
+linux.sh
 
 *.exe
 src/qtum-cli
