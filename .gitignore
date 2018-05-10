@@ -1,4 +1,7 @@
 *.tar.gz
+depends/SDKs
+depends/sdk-sources
+depends/sources
 
 *.exe
 src/qtum-cli
