@@ -53,12 +53,11 @@ dnl Compiler with posix support is needed for cross compile some of c++ 11 featu
 case $host in
   *mingw*)
      lt_cv_deplibs_check_method="pass_all"
-     CC="$CC-posix"
-     CXX="$CXX-posix"
   ;;
 esac
 dnl Require C++11 compiler (no GNU extensions)
 AX_CXX_COMPILE_STDCXX([11], [noext], [mandatory], [nodefault])
+
 dnl Check if -latomic is required for <std::atomic>
 CHECK_ATOMIC
 

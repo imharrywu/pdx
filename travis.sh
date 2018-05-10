@@ -161,19 +161,8 @@ else
 	./autogen.sh
 fi
 
-if [ -d build ]; then
-	cd build
-else
-	mkdir build && cd build
-fi
+./configure  $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG || ( cat config.log && exit 1)
 
-../configure --cache-file=config.cache $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG || ( cat config.log && exit 1)
-
-make distdir VERSION=$HOST
-
-cd qtum-$HOST
-
-./configure --cache-file=../config.cache $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG || ( cat config.log && exit 1)
 make $MAKEJOBS $GOAL || ( echo "Build failure. Verbose build follows." && make $GOAL V=1 ; exit 1 )
 
 export LD_LIBRARY_PATH=$TRAVIS_BUILD_DIR/depends/$HOST/lib
