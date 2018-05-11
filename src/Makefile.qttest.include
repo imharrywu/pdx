@@ -64,4 +64,4 @@ test_Predix_qt_check : qt/test/test_bitcoin-qt$(EXEEXT) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
 test_Predix_qt_clean: FORCE
-        rm -f $(CLEAN_BITCOIN_QT_TEST) $(qt_test_test_Predix_qt_OBJECTS)
+	rm -f $(CLEAN_BITCOIN_QT_TEST) $(qt_test_test_Predix_qt_OBJECTS)
