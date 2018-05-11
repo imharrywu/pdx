@@ -1895,7 +1895,7 @@
     </message>
     <message>
         <source>Qtum Core</source>
-        <translation>Qtum Core</translation>
+        <translation>Predix Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

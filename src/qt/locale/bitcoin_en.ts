@@ -3954,7 +3954,7 @@
     <message>
         <location line="-360"/>
         <source>Qtum Core</source>
-        <translation type="unfinished">Qtum Core</translation>
+        <translation type="unfinished">Predix Core</translation>
     </message>
     <message>
         <location line="+1"/>
