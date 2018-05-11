@@ -3018,7 +3018,7 @@
     </message>
     <message>
         <source>Qtum Core</source>
-        <translation>Qtum Core</translation>
+        <translation>普德斯核心钱包</translation>
     </message>
     <message>
         <source>The %s developers</source>
