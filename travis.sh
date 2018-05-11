@@ -66,7 +66,7 @@ elif [ "$matrix" = "Win32Gui" ]; then
 	export PACKAGES="python3 nsis g++-mingw-w64-i686 bc" 
 	export RUN_TESTS=false
 	export GOAL="deploy" 
-	export BITCOIN_CONFIG="--with-gui --disable-tests --enable-reduce-exports"
+	export BITCOIN_CONFIG="--with-gui --disable-tests --disable-bench --disable-debug --without-libs --enable-reduce-exports"
 
 # Win64Gui
 elif [ "$matrix" = "Win64Gui" ]; then
@@ -75,7 +75,7 @@ elif [ "$matrix" = "Win64Gui" ]; then
 	export PACKAGES="python3 nsis g++-mingw-w64-x86-64 bc"
 	export RUN_TESTS=false
 	export GOAL="deploy"
-	export BITCOIN_CONFIG="--with-gui --disable-tests disable-bench disable-debug --enable-reduce-exports"
+	export BITCOIN_CONFIG="--with-gui --disable-tests --disable-bench disable-debug --without-libs --enable-reduce-exports"
 
 # Cross-Mac
 elif [ "$matrix" = "Cross-Mac" ]; then
@@ -85,7 +85,7 @@ elif [ "$matrix" = "Cross-Mac" ]; then
 	export OSX_SDK=10.11
 	export RUN_TESTS=false
 	export GOAL="deploy"
-	export BITCOIN_CONFIG="--disable-debug --enable-gui --disable-bench --disable-tests --enable-reduce-exports"
+	export BITCOIN_CONFIG="--disable-debug --enable-gui --disable-bench --disable-tests --without-libs --enable-reduce-exports"
 
 # bitcoind
 elif [ "$matrix" = "bitcoind" ]; then
@@ -96,9 +96,9 @@ elif [ "$matrix" = "bitcoind" ]; then
 	export GOAL="install"
 	export USE_SHELL="/bin/bash"
 	# for debug
-	#export BITCOIN_CONFIG="--enable-debug --without-gui --without-libs --disable-tests --disable-bench --enable-zmq --enable-glibc-back-compat --enable-reduce-exports CPPFLAGS=-DDEBUG_LOCKORDER"
+	export BITCOIN_CONFIG="--enable-debug --without-gui --without-libs --disable-tests --disable-bench --enable-zmq --enable-glibc-back-compat --enable-reduce-exports CPPFLAGS=-DDEBUG_LOCKORDER"
 	# no-debug
-	export BITCOIN_CONFIG="--disable-debug --without-gui --without-libs --disable-tests --disable-bench --enable-zmq --enable-glibc-back-compat --enable-reduce-exports CPPFLAGS=-DDEBUG_LOCKORDER"
+	#export BITCOIN_CONFIG="--disable-debug --without-gui --without-libs --disable-tests --disable-bench --enable-zmq --enable-glibc-back-compat --enable-reduce-exports CPPFLAGS=-DDEBUG_LOCKORDER"
 
 # undefined
 else 
