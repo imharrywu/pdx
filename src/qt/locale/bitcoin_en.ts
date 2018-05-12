@@ -461,7 +461,7 @@
     <message>
         <location line="+517"/>
         <source>Qtum</source>
-        <translation>Qtum</translation>
+        <translation>Predix</translation>
     </message>
     <message>
         <location line="-742"/>
@@ -1325,7 +1325,7 @@
     <message>
         <location line="+30"/>
         <source>Automatically open the Qtum client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Qtum client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>Automatically open the Predix client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1515,7 +1515,7 @@
         <location line="+62"/>
         <location line="+386"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qtum network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Qtum network after a connection is established, but this process has not completed yet.</translation>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Predix network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -3067,7 +3067,7 @@
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Qtum address</source>
-        <translation>Sign the message to prove you own this Qtum address</translation>
+        <translation>Sign the message to prove you own this Predix address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3103,7 +3103,7 @@
     <message>
         <location line="+37"/>
         <source>Verify the message to ensure it was signed with the specified Qtum address</source>
-        <translation>Verify the message to ensure it was signed with the specified Qtum address</translation>
+        <translation>Verify the message to ensure it was signed with the specified Predix address</translation>
     </message>
     <message>
         <location line="+3"/>
