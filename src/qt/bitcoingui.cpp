@@ -333,7 +333,7 @@ void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
-    overviewAction = new QAction(platformStyle->MultiStatesIcon(":/icons/overview"), tr("My &wallet"), this);
+    overviewAction = new QAction(platformStyle->MultiStatesIcon(":/icons/overview"), tr("&Overview"), this);
     overviewAction->setStatusTip(tr("Show general overview of wallet"));
     overviewAction->setToolTip(overviewAction->statusTip());
     overviewAction->setCheckable(true);
