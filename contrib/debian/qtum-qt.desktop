@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Bitcoin Core
-Comment=Connect to the Qtum P2P Network
-Exec=qtum-qt %u
+Comment=Connect to the Predix P2P Network
+Exec=Predix-qt %u
 Terminal=false
 Type=Application
-Icon=qtum128
-MimeType=x-scheme-handler/qtum;
+Icon=Predix128
+MimeType=x-scheme-handler/Predix;
 Categories=Office;Finance;

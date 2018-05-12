@@ -47,7 +47,7 @@
 #endif
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("qtum:");
+const QString BITCOIN_IPC_PREFIX("Predix:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
@@ -78,7 +78,7 @@ namespace // Anon namespace
 //
 static QString ipcServerName()
 {
-    QString name("QtumQt");
+    QString name("PredixQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

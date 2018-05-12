@@ -6,14 +6,14 @@ linux.sh
 /built/
 
 *.exe
-src/qtum-cli
-src/qtum-tx
-src/qtumd
-src/bench/bench_qtum
-src/qt/qtum-qt
-src/qt/test/test_qtum-qt
-src/test/test_qtum
-src/test/test_qtum_fuzzy
+src/Predix-cli
+src/Predix-tx
+src/Predixd
+src/bench/bench_Predix
+src/qt/Predix-qt
+src/qt/test/test_Predix-qt
+src/test/test_Predix
+src/test/test_Predix_fuzzy
 
 # autoreconf
 Makefile.in

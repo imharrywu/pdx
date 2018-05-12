@@ -24,18 +24,18 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Build Qtum Core
+Build Build Predix Core
 ------------------------
 
-1. Clone the qtum source code and cd into `qtum`
+1. Clone the Predix source code and cd into `Predix`
 
-        git clone --recursive https://github.com/qtumproject/qtum.git
-        cd qtum
+        git clone --recursive https://github.com/Predixproject/Predix.git
+        cd Predix
         git submodule update --init --recursive
 
-2.  Build qtum-core:
+2.  Build Predix-core:
 
-    Configure and build the headless qtum binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Predix binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 

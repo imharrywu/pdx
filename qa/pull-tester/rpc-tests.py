@@ -76,7 +76,7 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 if "BITCOIND" not in os.environ:
-    os.environ["BITCOIND"] = BUILDDIR + '/src/qtumd' + EXEEXT
+    os.environ["BITCOIND"] = BUILDDIR + '/src/Predixd' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
@@ -159,37 +159,37 @@ testScripts = [
     'listsinceblock.py',
     'p2p-leaktests.py',
 
-    #qtum
-    'qtum-8mb-block.py',
-    'qtum-dgp-gas-price-lingering-mempool-tx.py',
-    'qtum-opcreate.py',
-    'qtum-block-header.py',
-    'qtum-dgp.py',
-    'qtum-pos.py',
-    'qtum-callcontract.py',
-    'qtum-gas-limit.py',
-    'qtum-pos-segwit.py',
-    'qtum-combined-outputs-exceed-gas-limit.py',
-    'qtum-globals-state-changer.py',
-    'qtum-sendtocontract.py',
-    'qtum-condensing-txs.py',
-    'qtum-identical-refunds.py',
-    'qtum-soft-block-gas-limits.py',
-    'qtum-createcontract.py',
-    'qtum-many-value-refunds-from-same-tx.py',
-    'qtum-spend-op-call.py',
-    'qtum-create-eth-op-code.py',
-    'qtum-no-exec-call-disabled.py',
-    'qtum-state-root.py',
-    'qtum-dgp-block-size-restart.py',
-    'qtum-null-sender.py',
-    'qtum-transaction-prioritization.py',
-    'qtum-dgp-block-size-sync.py',
-    'qtum-opcall.py',
-    'qtum-assign-mpos-fees-to-gas-refund.py',
-    'qtum-gas-limit-overflow.py',
-    'qtum-immature-coinstake-spend.py',
-    'qtum-ignore-mpos-participant-reward.py',
+    #Predix
+    'Predix-8mb-block.py',
+    'Predix-dgp-gas-price-lingering-mempool-tx.py',
+    'Predix-opcreate.py',
+    'Predix-block-header.py',
+    'Predix-dgp.py',
+    'Predix-pos.py',
+    'Predix-callcontract.py',
+    'Predix-gas-limit.py',
+    'Predix-pos-segwit.py',
+    'Predix-combined-outputs-exceed-gas-limit.py',
+    'Predix-globals-state-changer.py',
+    'Predix-sendtocontract.py',
+    'Predix-condensing-txs.py',
+    'Predix-identical-refunds.py',
+    'Predix-soft-block-gas-limits.py',
+    'Predix-createcontract.py',
+    'Predix-many-value-refunds-from-same-tx.py',
+    'Predix-spend-op-call.py',
+    'Predix-create-eth-op-code.py',
+    'Predix-no-exec-call-disabled.py',
+    'Predix-state-root.py',
+    'Predix-dgp-block-size-restart.py',
+    'Predix-null-sender.py',
+    'Predix-transaction-prioritization.py',
+    'Predix-dgp-block-size-sync.py',
+    'Predix-opcall.py',
+    'Predix-assign-mpos-fees-to-gas-refund.py',
+    'Predix-gas-limit-overflow.py',
+    'Predix-immature-coinstake-spend.py',
+    'Predix-ignore-mpos-participant-reward.py',
 ]
 
 

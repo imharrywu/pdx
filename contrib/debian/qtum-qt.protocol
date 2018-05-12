@@ -1,6 +1,6 @@
 [Protocol]
-exec=qtum-qt '%u'
-protocol=qtum
+exec=Predix-qt '%u'
+protocol=Predix
 input=none
 output=none
 helper=true

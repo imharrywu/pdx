@@ -33,7 +33,7 @@
 #include <boost/filesystem/path.hpp>
 #include "consensus/consensus.h"
 
-/////////////////////////////////////////// qtum
+/////////////////////////////////////////// Predix
 #include <qtum/qtumstate.h>
 #include <qtum/qtumDGP.h>
 #include <libethereum/ChainParams.h>
@@ -182,7 +182,7 @@ static const uint64_t DEFAULT_GAS_LIMIT_OP_SEND=250000;
 static const CAmount DEFAULT_GAS_PRICE=0.00000040*COIN;
 static const CAmount MAX_RPC_GAS_PRICE=0.00000100*COIN;
 
-static const size_t MAX_CONTRACT_VOUTS = 1000; // qtum
+static const size_t MAX_CONTRACT_VOUTS = 1000; // Predix
 
 struct BlockHasher
 {
@@ -379,7 +379,7 @@ std::string FormatStateMessage(const CValidationState &state);
 /** Get the BIP9 state for a given deployment at the current tip. */
 ThresholdState VersionBitsTipState(const Consensus::Params& params, Consensus::DeploymentPos pos);
 
-//////////////////////////////////////////////////////////// // qtum
+//////////////////////////////////////////////////////////// // Predix
 struct CHeightTxIndexIteratorKey {
     unsigned int height;
 
@@ -704,7 +704,7 @@ bool LoadMempool();
 
 bool CheckReward(const CBlock& block, CValidationState& state, int nHeight, const Consensus::Params& consensusParams, CAmount nFees, CAmount gasRefunds, CAmount nActualStakeReward, const std::vector<CTxOut>& vouts);
 
-//////////////////////////////////////////////////////// qtum
+//////////////////////////////////////////////////////// Predix
 std::vector<ResultExecute> CallContract(const dev::Address& addrContract, std::vector<unsigned char> opcode, const dev::Address& sender = dev::Address(), uint64_t gasLimit=0);
 
 bool CheckSenderScript(const CCoinsViewCache& view, const CTransaction& tx);
