@@ -258,6 +258,14 @@
         <translation>交易记录(&amp;T)</translation>
     </message>
     <message>
+        <source>&amp;Predix Tokens</source>
+        <translation>Predix代币(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Smart &amp;Contracts</source>
+        <translation>智能合约(&amp;S)</translation>
+    </message>
+    <message>
         <source>Browse transaction history</source>
         <translation>查看交易历史</translation>
     </message>
@@ -3674,7 +3682,7 @@
     </message>
     <message>
         <source>Data Hex</source>
-        <translation>Data Hex</translation>
+        <translation>16进制数据</translation>
     </message>
     <message>
         <source>Optional</source>
@@ -3686,11 +3694,11 @@
     </message>
     <message>
         <source>Gas Limit</source>
-        <translation>Gas Limit</translation>
+        <translation>燃料限额</translation>
     </message>
     <message>
         <source>Gas Price</source>
-        <translation>Gas Price</translation>
+        <translation>燃料价格</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -3701,8 +3709,16 @@
         <translation>清除所有</translation>
     </message>
     <message>
-        <source>Send to Contract</source>
+        <source>Send To Contract</source>
         <translation>发送至智能合约</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>函数</translation>
+    </message>
+    <message>
+        <source>Interface (ABI)</source>
+        <translation>ABI接口定义</translation>
     </message>
 </context>
 <context>
@@ -3713,7 +3729,7 @@
     </message>
     <message>
         <source>Bytecode</source>
-        <translation>Bytecode</translation>
+        <translation>字节码</translation>
     </message>
     <message>
         <source>Optional</source>
@@ -3725,11 +3741,11 @@
     </message>
     <message>
         <source>Gas Limit</source>
-        <translation>Gas Limit</translation>
+        <translation>燃料限额</translation>
     </message>
     <message>
         <source>Gas Price</source>
-        <translation>Gas Price</translation>
+        <translation>燃料价格</translation>
     </message>
     <message>
         <source>Contract Template</source>
@@ -3737,7 +3753,7 @@
     </message>
     <message>
         <source>Generate Bytecode</source>
-        <translation>生成Bytecode</translation>
+        <translation>生成字节码</translation>
     </message>
     <message>
         <source>Create Contract</source>
@@ -3746,6 +3762,14 @@
     <message>
         <source>Clear All</source>
         <translation>清除所有</translation>
+    </message>
+    <message>
+        <source>Constructor</source>
+        <translation>构造器</translation>
+    </message>
+    <message>
+        <source>Interface (ABI)</source>
+        <translation>ABI接口定义</translation>
     </message>
 </context>
 <context>
@@ -3774,6 +3798,9 @@
         <source>Call Smart Contract</source>
         <translation>调用智能合约</translation>
     </message>
-
+    <message>
+        <source>Interface (ABI)</source>
+        <translation>ABI接口定义</translation>
+    </message>
 </context>
 </TS>
