@@ -159,7 +159,10 @@ public:
             boost::assign::map_list_of
             ( 0, uint256S("000008dcecaf5e18d5d7480718e52881b220dcfc63c751199c19ad2b1f049673"))
             ( 5000, uint256S("0000894ffcda7d97885d6014db4c9788903b3d21dbdb9c07fde17a144b0fc881")) //last PoW block
-            //( 5001, uint256S("bd316cd37888cc0574f477be37e1da1218c30c42da96d93dc8f6eb66776e2352")) //first PoS block
+            ( 5001, uint256S("4693c5dc1edf8c98ff889d362b79a7f54f092b9cd8f78bea0a2817da0d88d84f")) //first PoS block
+            ( 5002, uint256S("1feda5e6c023e5a9a5fe2ec43aad85b3604046cf8f66c4acc4d54d854525aad0")) //first PoS block
+            ( 5003, uint256S("6f7c4f9d8817fc0b03dce5c94b845756c5e07b515f3b55470a6e97209164d988")) //first PoS block
+            ( 5004, uint256S("661594a460ccecaa46cf0a9b68215d4f6c0de4c7585a2e31768ec8397fd10da9")) //first PoS block
             //( 5080, uint256S("932983399ee55f1c824edf8573ddff9d3e73a9093f98aed600e45b7e1c667e6c")) //another PoS block
         };
 
