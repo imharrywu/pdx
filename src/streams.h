@@ -347,7 +347,7 @@ public:
             {
                 throw std::ios_base::failure("CDataStream::read(): end of data");
             }
-	    if (nSize == 0) return ;
+            if (nSize == 0) return ;
             memcpy(pch, &vch[nReadPos], nSize);
             nReadPos = 0;
             vch.clear();
