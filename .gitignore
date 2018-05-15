@@ -2,9 +2,11 @@
 depends/SDKs
 depends/sdk-sources
 depends/sources
-linux.sh
 /built/
-
+Predix-Qt.app/
+dist/
+dpi36.background.tiff
+dpi72.background.tiff
 *.exe
 src/Predix-cli
 src/Predix-tx
