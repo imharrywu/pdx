@@ -1,0 +1,17 @@
+diff --git a/libevm/VM.cpp b/libevm/VM.cpp
+index a6e9164..e29443a 100755
+--- a/libevm/VM.cpp
++++ b/libevm/VM.cpp
+@@ -141,7 +141,11 @@ void VM::fetchInstruction()
+ 	checkStack(metric.args, metric.ret);
+ 
+ 	// FEES...
+-	m_runGas = toInt63(m_schedule->tierStepGas[static_cast<unsigned>(metric.gasPriceTier)]);
++	if (static_cast<unsigned>(metric.gasPriceTier) < 8){
++		m_runGas = toInt63(m_schedule->tierStepGas[static_cast<unsigned>(metric.gasPriceTier)]);
++	}else{
++		m_runGas = 0;
++	}
+ 	m_newMemSize = m_mem.size();
+ 	m_copyMemSize = 0;
+ }
