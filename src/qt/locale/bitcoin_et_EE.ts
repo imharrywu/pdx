@@ -100,7 +100,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumGUI</name>
+    <name>PDXGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Võrguga sünkroniseerimine...</translation>
@@ -118,8 +118,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-        <source>Qtum</source>
-        <translation>Qtum</translation>
+        <source>PDX</source>
+        <translation>PDX</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -722,14 +722,14 @@
     </message>
     </context>
 <context>
-    <name>qtum-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>
     </message>
     <message>
-        <source>Qtum Core</source>
-        <translation>Qtum Core</translation>
+        <source>PDX Core</source>
+        <translation>PDX Core</translation>
     </message>
     <message>
         <source>Information</source>

@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Qtum addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your PDX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>These are your PDX addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Qtum addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your PDX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>These are your PDX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
@@ -211,8 +211,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QTUMS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QTUMS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PDXS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PDXS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -227,7 +227,7 @@
     </message>
     <message>
         <location line="-56"/>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your qtums from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PDXs from being stolen by malware infecting your computer.</source>
         <translation>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PDXs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
     </message>
     <message>
         <location line="-511"/>
-        <source>Send coins to a Qtum address</source>
+        <source>Send coins to a PDX address</source>
         <translation>Send coins to a PDX address</translation>
     </message>
     <message>
@@ -460,7 +460,7 @@
     </message>
     <message>
         <location line="+517"/>
-        <source>Qtum</source>
+        <source>PDX</source>
         <translation>PDX</translation>
     </message>
     <message>
@@ -495,12 +495,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Qtum addresses to prove you own them</source>
+        <source>Sign messages with your PDX addresses to prove you own them</source>
         <translation>Sign messages with your PDX addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Qtum addresses</source>
+        <source>Verify messages to ensure they were signed with specified PDX addresses</source>
         <translation>Verify messages to ensure they were signed with specified PDX addresses</translation>
     </message>
     <message>
@@ -525,7 +525,7 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and qtum: URIs)</source>
+        <source>Request payments (generates QR codes and PDX: URIs)</source>
         <translation>Request payments (generates QR codes and pdx: URIs)</translation>
     </message>
     <message>
@@ -540,7 +540,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a qtum: URI or payment request</source>
+        <source>Open a PDX: URI or payment request</source>
         <translation>Open a pdx: URI or payment request</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
     </message>
     <message numerus="yes">
         <location line="+357"/>
-        <source>%n active connection(s) to Qtum network</source>
+        <source>%n active connection(s) to PDX network</source>
         <translation>
             <numerusform>%n active connection to PDX network</numerusform>
             <numerusform>%n active connections to PDX network</numerusform>
@@ -611,7 +611,7 @@
     </message>
     <message>
         <location line="-441"/>
-        <source>Show the %1 help message to get a list with possible Qtum command-line options</source>
+        <source>Show the %1 help message to get a list with possible PDX command-line options</source>
         <translation>Show the %1 help message to get a list with possible PDX command-line options</translation>
     </message>
     <message>
@@ -691,7 +691,7 @@
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+518"/>
-        <source>A fatal error occurred. Qtum can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. PDX can no longer continue safely and will quit.</source>
         <translation>A fatal error occurred. PDX can no longer continue safely and will quit.</translation>
     </message>
 </context>
@@ -934,7 +934,7 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Qtum address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid PDX address.</source>
         <translation>The entered address &quot;%1&quot; is not a valid PDX address.</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>%1 will download and store a copy of the Qtum block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the PDX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 will download and store a copy of the PDX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
@@ -1118,12 +1118,12 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the qtum network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the PDX network, as detailed below.</source>
         <translation>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the pdx network, as detailed below.</translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Attempting to spend qtums that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend PDXs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Attempting to spend pdxs that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
     </message>
     <message>
@@ -1324,7 +1324,7 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Qtum client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the PDX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatically open the PDX client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Qtum network through a SOCKS5 proxy.</source>
+        <source>Connect to the PDX network through a SOCKS5 proxy.</source>
         <translation>Connect to the PDX network through a SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1389,7 +1389,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Qtum network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the PDX network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Connect to the PDX network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
@@ -1514,7 +1514,7 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Qtum network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PDX network after a connection is established, but this process has not completed yet.</source>
         <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the PDX network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
@@ -1612,7 +1612,7 @@
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start qtum: click-to-pay handler</source>
+        <source>Cannot start PDX: click-to-pay handler</source>
         <translation>Cannot start pdx: click-to-pay handler</translation>
     </message>
     <message>
@@ -1634,7 +1634,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Qtum address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid PDX address or malformed URI parameters.</source>
         <translation>URI cannot be parsed! This can be caused by an invalid PDX address or malformed URI parameters.</translation>
     </message>
     <message>
@@ -1756,7 +1756,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+136"/>
-        <source>Enter a Qtum address (e.g. %1)</source>
+        <source>Enter a PDX address (e.g. %1)</source>
         <translation>Enter a PDX address (e.g. %1)</translation>
     </message>
     <message>
@@ -2342,7 +2342,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Qtum network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PDX network.</source>
         <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PDX network.</translation>
     </message>
     <message>
@@ -2636,7 +2636,7 @@
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for qtum transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for PDX transactions than the network can process.</source>
         <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for pdx transactions than the network can process.</translation>
     </message>
     <message>
@@ -2850,7 +2850,7 @@
     </message>
     <message>
         <location line="+102"/>
-        <source>Warning: Invalid Qtum address</source>
+        <source>Warning: Invalid PDX address</source>
         <translation>Warning: Invalid PDX address</translation>
     </message>
     <message>
@@ -2905,7 +2905,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Qtum address to send the payment to</source>
+        <source>The PDX address to send the payment to</source>
         <translation>The PDX address to send the payment to</translation>
     </message>
     <message>
@@ -2932,7 +2932,7 @@
     </message>
     <message>
         <location line="-1021"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less qtums than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less PDXs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>The fee will be deducted from the amount being sent. The recipient will receive less pdxs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
     </message>
     <message>
@@ -2962,7 +2962,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the qtum: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Qtum network.</source>
+        <source>A message that was attached to the PDX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PDX network.</source>
         <translation>A message that was attached to the pdx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PDX network.</translation>
     </message>
     <message>
@@ -3019,12 +3019,12 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive qtums sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive PDXs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>You can sign messages/agreements with your addresses to prove you can receive pdxs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Qtum address to sign the message with</source>
+        <source>The PDX address to sign the message with</source>
         <translation>The PDX address to sign the message with</translation>
     </message>
     <message>
@@ -3066,7 +3066,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Qtum address</source>
+        <source>Sign the message to prove you own this PDX address</source>
         <translation>Sign the message to prove you own this PDX address</translation>
     </message>
     <message>
@@ -3097,12 +3097,12 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Qtum address the message was signed with</source>
+        <source>The PDX address the message was signed with</source>
         <translation>The PDX address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Qtum address</source>
+        <source>Verify the message to ensure it was signed with the specified PDX address</source>
         <translation>Verify the message to ensure it was signed with the specified PDX address</translation>
     </message>
     <message>
@@ -3953,7 +3953,7 @@
     </message>
     <message>
         <location line="-360"/>
-        <source>Qtum Core</source>
+        <source>PDX Core</source>
         <translation>PDX Core</translation>
     </message>
     <message>
