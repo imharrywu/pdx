@@ -127,13 +127,6 @@ public:
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1526123414, 598638, 0x1f00ffff, 1, 50 * COIN);
-	while(false){
-		static unsigned int nonce = 0;
-        	genesis = CreateGenesisBlock(1526123414, nonce++, 0x1f00ffff, 1, 50 * COIN);
-		printf("%s,%u,%s\n", genesis.GetHash().ToString().c_str(), nonce-1, genesis.hashMerkleRoot.ToString().c_str());
-		const char * strTest = genesis.GetHash().ToString().c_str();
-		if (strncmp(strTest, "00000", 5) == 0)break;
-	}
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000008dcecaf5e18d5d7480718e52881b220dcfc63c751199c19ad2b1f049673"));
         assert(genesis.hashMerkleRoot == uint256S("0x243586351b192290b01d5b096ad201a8d4a5b136b0992aaad824e1928609c641"));
